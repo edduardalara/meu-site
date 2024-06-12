@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe6e6;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6666;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff4d4d;
+}
+.nossa_foto {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    box-shadow: 5 10px 15px rgba(0, 0, 0, 0.1);
+}
